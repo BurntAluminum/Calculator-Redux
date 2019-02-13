@@ -1,5 +1,29 @@
+@font-face {
+  font-family: C64;
+  src: url(../font/Commodore-64-v6.3.TTF);
+}
+
 body {
   background-color: #6262ff;
+  font-family: C64;
+  color: #6262ff;
+}
+
+label {
+  font-size: 18px;
+}
+
+p {
+  font-size: 20px;
+}
+
+.card {
+  background-color: #4e10ff;
+  min-height: 860px;
+}
+
+.btn {
+  color: #6262ff;
 }
 
 #Winestein {
